@@ -10,8 +10,8 @@ jobs:
       - name: Welcome Message
         run: echo "My first GitHub Actions Job"
 
-      - name: List Files 
-        run: ls 
+      - name: List Files(Include Hidden) 
+        run: ls -a  
 
-      - name: Read file 
-        run: cat dockerfile
+      
+  
